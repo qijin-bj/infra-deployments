@@ -1,7 +1,7 @@
 resources:
 - allow-argocd-to-manage.yaml
 - argocd-permissions.yaml
-- https://github.com/redhat-appstudio/integration-service/config/default?ref=0513fd2ca46e6f5da8d72601cd9b9acb14273522
+- https://github.com/redhat-appstudio/integration-service/config/default?ref=3b325bb8d9cf9afcbbf14d19cf6f4473c67e9c1e
 - .tekton/
 
 apiVersion: kustomize.config.k8s.io/v1beta1
@@ -10,7 +10,7 @@ kind: Kustomization
 images:
 - name: quay.io/redhat-appstudio/integration-service
   newName: quay.io/redhat-appstudio/integration-service
-  newTag: 0513fd2ca46e6f5da8d72601cd9b9acb14273522
+  newTag: 3b325bb8d9cf9afcbbf14d19cf6f4473c67e9c1e
 
 namespace: integration-service
 
