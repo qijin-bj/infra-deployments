@@ -11,7 +11,7 @@ resources:
 images:
   - name:  quay.io/redhat-appstudio/service-provider-integration-operator
     newName: quay.io/redhat-appstudio/service-provider-integration-operator
-    newTag: 12c085728913b9cd94da3be409a09f4cb387a7c3 
+    newTag: 12c085728913b9cd94da3be409a09f4cb387a7c3
   - name: quay.io/redhat-appstudio/service-provider-integration-oauth
     newName: quay.io/redhat-appstudio/service-provider-integration-oauth
     newTag: 237895a0e45fdf8137136e4dffda292b4bf4c420 
