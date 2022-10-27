@@ -4,17 +4,18 @@ kind: Kustomization
 resources:
   - argocd-permissions.yaml
   - vault/
-  - https://github.com/redhat-appstudio/service-provider-integration-operator/config/default?ref=12c085728913b9cd94da3be409a09f4cb387a7c3
+  - https://github.com/redhat-appstudio/service-provider-integration-operator/config/default?ref=5e12f31c55f61be6cd00cf241c8dfd718cb1b97e
   - oauth_route.yaml
   - .tekton/
 
 images:
   - name:  quay.io/redhat-appstudio/service-provider-integration-operator
     newName: quay.io/redhat-appstudio/service-provider-integration-operator
-    newTag: 12c085728913b9cd94da3be409a09f4cb387a7c3 
+    newTag: 5e12f31c55f61be6cd00cf241c8dfd718cb1b97e
   - name: quay.io/redhat-appstudio/service-provider-integration-oauth
     newName: quay.io/redhat-appstudio/service-provider-integration-oauth
-    newTag: c3c3ac9c3aae00cc9c7d9af9defe3e602f205aa4 
+    newTag: 3b325bb8d9cf9afcbbf14d19cf6f4473c67e9c1e
+ 
 
 namespace: spi-system
 
