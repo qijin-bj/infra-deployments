@@ -7,8 +7,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -18,8 +18,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -29,8 +29,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -40,8 +40,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -51,8 +51,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -62,8 +62,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -73,8 +73,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -84,8 +84,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -95,8 +95,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -106,8 +106,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -117,8 +117,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -128,8 +128,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -139,8 +139,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -150,8 +150,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -161,8 +161,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -172,5 +172,5 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://jinqi7@github.com/qijin-bj/infra-deployments.git
+    targetRevision: preview-main-1669260623
