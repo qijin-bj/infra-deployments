@@ -10,7 +10,7 @@ images:
     newTag: 575fd814c07a15587cd9779a5c36cf10d804f947
 configMapGenerator:
   - literals:
-      - GITHUB_ORG=qijin-bj
+      - GITHUB_ORG=redhat-appstudio-qe
     name: github-config
     behavior: replace
 namespace: application-service
