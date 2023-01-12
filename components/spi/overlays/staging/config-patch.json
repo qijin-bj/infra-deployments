@@ -2,12 +2,17 @@
   {
     "op": "replace",
     "path": "/data/VAULTHOST",
-    "value": "https://vault-spi-vault.apps.rhosd-06.hacbs.ccitredhat.com"
+    "value": "https://vault-spi-vault.apps.jingcluster.lab.upshift.rdu2.redhat.com"
   },
   {
     "op": "replace",
     "path": "/data/BASEURL",
-    "value": "https://spi-oauth-spi-system.apps.rhosd-06.hacbs.ccitredhat.com"
+    "value": "https://spi-oauth-spi-system.apps.jingcluster.lab.upshift.rdu2.redhat.com"
+  },
+  {
+    "op": "add",
+    "path": "/data/VAULTINSECURETLS",
+    "value": "true"
   },
   {
     "op": "add",
