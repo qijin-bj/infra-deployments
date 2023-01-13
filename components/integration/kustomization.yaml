@@ -9,7 +9,7 @@ kind: Kustomization
 images:
 - name: quay.io/redhat-appstudio/integration-service
   newName: quay.io/jinqi/integration-service
-  newTag: 2023-01-111
+  newTag: 2023-01-121
 
 namespace: integration-service
 
