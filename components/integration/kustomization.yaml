@@ -1,7 +1,7 @@
 resources:
 - allow-argocd-to-manage.yaml
 - argocd-permissions.yaml
-- https://github.com/jinqi7/integration-service/config/default?ref=ee3e3d827ea73a28154ebe1557f14bf8b69a9743
+- https://github.com/jinqi7/integration-service/config/default?ref=24189f65d6d9ae84e63641e198170d8726b0e74c
 
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
@@ -9,7 +9,7 @@ kind: Kustomization
 images:
 - name: quay.io/redhat-appstudio/integration-service
   newName: quay.io/jinqi/integration-service
-  newTag: 2023-01-16
+  newTag: 2023-01-161
 
 namespace: integration-service
 
