@@ -7,7 +7,7 @@ kind: Kustomization
 images:
   - name: quay.io/redhat-appstudio/integration-service
     newName: quay.io/jinqi/integration-service
-    newTag: mytag1001
+    newTag: mytag1005
 namespace: integration-service
 patches:
   - ./manager_resources_patch.yaml
