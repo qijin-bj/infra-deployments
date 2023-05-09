@@ -1,24 +1,19 @@
 resources:
-- allow-argocd-to-manage.yaml
-- argocd-permissions.yaml
-- https://github.com/redhat-appstudio/application-service/config/default?ref=cdd1206e8e7c9c1dcaa5dca43f909ab361a50e3d
-
+  - allow-argocd-to-manage.yaml
+  - argocd-permissions.yaml
+  - https://github.com/redhat-appstudio/application-service/config/default?ref=cdd1206e8e7c9c1dcaa5dca43f909ab361a50e3d
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
 images:
-- name: quay.io/redhat-appstudio/application-service
-  newName: quay.io/redhat-appstudio/application-service
-  newTag: cdd1206e8e7c9c1dcaa5dca43f909ab361a50e3d
-
+  - name: quay.io/redhat-appstudio/application-service
+    newName: quay.io/redhat-appstudio/application-service
+    newTag: cdd1206e8e7c9c1dcaa5dca43f909ab361a50e3d
 configMapGenerator:
-- literals:
-  - GITHUB_ORG=""
-  name: github-config
-  behavior: replace
-
+  - literals:
+      - GITHUB_ORG=qijin-bj
+    name: github-config
+    behavior: replace
 namespace: application-service
-
 patches:
   - ./manager_resources_patch.yaml
   - ./pprof_patch.yaml
